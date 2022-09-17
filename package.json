@@ -1,0 +1,19 @@
+{
+  "name": "android_git_hook",
+  "version": "1.0.0",
+  "description": "Android端git规范检查",
+  "scripts": {
+    "lint": "node gitExec.js"
+  },
+  "author": "AbnerMing",
+  "license": "ISC",
+  "pre-commit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
