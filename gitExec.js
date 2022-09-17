@@ -912,7 +912,7 @@ function checkImageOrLayout(value) {
 
 let taskList = [lint];
 // 执行检查
-let task = function () {
+let startTask = function () {
     if (!taskList.length) {
         process.exit(0);
         return;
@@ -923,15 +923,10 @@ let task = function () {
             process.exit(1);
             return;
         }
-        task();
+        startTask();
     });
 }
-
-let startTask = function () {
-    task();
-}
-
-// 执行检查
+//调用startTask方法，进行执行检查
 startTask();
 
 
