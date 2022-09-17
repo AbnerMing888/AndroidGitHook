@@ -900,16 +900,6 @@ function checkImageOrLayout(value) {
     }
 }
 
-// //调用 lint 函数
-// let startTask = function () {
-//     lint(function () {
-//         //它可以是0或1,0表示没有任何类型的故障结束进程，而1表示由于某种故障而结束进程
-//         process.exit(1);
-//     })
-// }
-// // 调用startTask方法，进行执行检查
-// startTask();
-
 let taskList = [lint];
 // 执行检查
 let startTask = function () {
@@ -920,6 +910,7 @@ let startTask = function () {
     let func = taskList.shift();
     func(function (pass) {
         if (pass === 1) {
+            //它可以是0或1,0表示没有任何类型的故障结束进程，而1表示由于某种故障而结束进程
             process.exit(1);
             return;
         }
