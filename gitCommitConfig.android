@@ -1,6 +1,6 @@
 #git提交配置文件
 #git提交前是否进行检测，true:检测，false:不检测
-gitCommitSwitch=true
+gitCommitSwitch=false
 #是否进行增量更新(增量仅命令可用)，true为增量，false为检查整个文件
 gitIncrement=false
 #git检测类型，0：全部，1：string文件Name，2：图片命名，3：layout，4：类命名，

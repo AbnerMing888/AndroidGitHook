@@ -5,6 +5,7 @@ AndroidGitHook是Android端规范检查，通过Git提交前拦截，进行代�
 如果大家只是使用，只看第一章即可，如果想自己动手开发一个属于自己的规范检查，可以全部进行预览。
 
 [Android打造专有hook，让不规范的代码扼杀在萌芽之中](https://mp.weixin.qq.com/s/vUEuA1ufNpBTsfnPPs1y0g)
+
 [Android打造专有hook第二篇，走进规范第一步](https://mp.weixin.qq.com/s/4S3N874KeD4NpzSJhksU2w)
 
 
